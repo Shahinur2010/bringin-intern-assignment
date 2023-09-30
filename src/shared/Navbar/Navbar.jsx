@@ -1,7 +1,7 @@
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-slate-100 px-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -17,7 +17,15 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">aaliver</a>
+                <div className="flex">
+                    <div>
+                        <img className="w-8 h-8 rounded-full mt-2" src="https://i.ibb.co/qBvFrD7/white-baking-logo-design.jpg" alt="" />
+                    </div>
+                    <div>
+                    <a className="btn btn-ghost normal-case text-xl text-teal-500">aaliver</a>
+                    </div>
+                </div>
+               
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -60,7 +68,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Join Us</a>
+            <button className="btn btn-outline btn-accent">Join Us</button>
                 <button className="btn btn-primary mx-5">Login/ SignUp</button>
             </div>
         </div>
