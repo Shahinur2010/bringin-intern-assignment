@@ -1,7 +1,7 @@
-
+import { FaBriefcase, FaVenus } from "react-icons/fa";
 const Banner = () => {
     return (
-        <div className="px-10 py-16">
+        <div className="px-10 py-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="mx-12">
                     <p> <span className="line">----</span> Welcome to <span className="text-teal-500 font-medium">aaliver</span></p>
@@ -15,7 +15,7 @@ const Banner = () => {
             </div>
             <div className="text-center py-10">
                 <p>Search Box</p>
-                <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+                <input type="text" placeholder="Candidate Skills                 Location"  className="input input-bordered w-full max-w-xs" /> 
                 <button className="btn btn-accent">Start Hiring</button>
             </div>
         </div>
